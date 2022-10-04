@@ -6,4 +6,3 @@ const usersSchema = new Schema({
 });
 
 export default model("Users", usersSchema);
-//asd
