@@ -8,5 +8,6 @@ router.get("/", blogController.get);
 router.put("/:title", blogController.put);
 router.post("/", blogController.post);
 router.delete("/:title", blogController.delete);
+router.post("/:id/comment", blogController.addComment);
 // se exporta el router para poder enlazarlo con las rutas que estan dentro de /api.
 export default router;
