@@ -1,8 +1,8 @@
-import { Schema, model } from "mongoose";
+import { Schema, model } from 'mongoose';
 
 const usersSchema = new Schema({
-    name:String,
-    mail:String,
+  name: String,
+  mail: String,
 });
 
-export default model("Users", usersSchema);
+export default model('Users', usersSchema);

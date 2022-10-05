@@ -1,6 +1,6 @@
-import { Request, Response } from "express";
-import { Model } from "mongoose";
-import UserModel from "../models/users";
+import { Request, Response } from 'express';
+import { Model } from 'mongoose';
+import UserModel from '../models/users';
 export const userController = {
   get: async (req: Request, res: Response) => {
     try {
